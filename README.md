@@ -1,2 +1,2 @@
 # coding-practice
-Solutions I wrote for various coding challenges.
+My solutions to various programming problems.
