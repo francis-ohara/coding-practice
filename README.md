@@ -1,2 +1,2 @@
 # coding-practice
-Solutions to programming problems.
+Solutions to various programming problems.
