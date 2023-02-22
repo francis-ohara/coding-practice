@@ -37,10 +37,10 @@ if __name__ == '__main__':
 
     k = int(input())
 
-    for i in range(1, n):
-        for j in range(1, i + 1):
-            if athletes[j - 1][k] > athletes[j][k]:
-                athletes[j - 1], athletes[j] = athletes[j], athletes[j - 1]
+    for i in range(0, n):
+        for j in range(0, n-i-1):
+            if int(athletes[j][k]) > int(athletes[j+1][k]):
+                athletes[j], athletes[j+1] = athletes[j+1], athletes[j]
 
     for athlete in athletes:
         print(" ".join(athlete))
