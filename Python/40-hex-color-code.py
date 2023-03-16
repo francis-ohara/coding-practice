@@ -42,8 +42,9 @@ regex = "\{.*(#([0-9A-Fa-f]{3}|[0-9A-Fa-f]{6})).*\}"
 
 string = ""
 for i in range(n):
-    string = string + input()
+    string = string + input().strip()
 
 results = re.findall(regex, string)
+
 for result in results:
     print(result)
