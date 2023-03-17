@@ -44,6 +44,11 @@ string = ""
 for i in range(n):
     string = string + input().strip()
 
+# ---Debugging---
+# Problem so far: Stops working the moment ".*" expression is included. ".*" Probably doesn't do what we think it does.
+# regex = ".*#([0-9A-F-a-f]{3}).*"
+# string = "{property: #ADA123; property: #AFD #FED #123}"
+
 results = re.findall(regex, string)
 
 for result in results:
