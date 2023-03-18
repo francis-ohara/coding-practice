@@ -37,17 +37,18 @@
 # Enter your code here. Read input from STDIN. Print output to STDOUT
 import re
 
-n = int(input())
-regex = "\{.*(#([0-9A-Fa-f]{3}|[0-9A-Fa-f]{6})).*\}"
-
-string = ""
-for i in range(n):
-    string = string + input().strip()
+# n = int(input())
+# regex = "\{.*(#([0-9A-Fa-f]{3}|[0-9A-Fa-f]{6})).*\}"
+#
+# string = ""
+# for i in range(n):
+#     string = string + input()
 
 # ---Debugging---
 # Problem so far: Stops working the moment ".*" expression is included. ".*" Probably doesn't do what we think it does.
-# regex = ".*#([0-9A-F-a-f]{3}).*"
-# string = "{property: #ADA123; property: #AFD #FED #123}"
+# Explanation so far: multiple possible ways of interpreting said regex. Last occurrence is chosen among different options for some reason.
+regex = ".*#[0-9A-F-a-f]{3}"
+string = "{property: #ADA123; property: #AFD #FED #123}"
 
 results = re.findall(regex, string)
 
