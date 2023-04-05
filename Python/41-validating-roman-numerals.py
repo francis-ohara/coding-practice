@@ -17,3 +17,5 @@ string = input()
 regex = "[IVCDX]"  # to be updated
 
 print(bool(re.search(regex, string)))
+
+#TODO: Check out how to specify repetition in regex
