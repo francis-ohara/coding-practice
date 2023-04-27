@@ -7,7 +7,7 @@
  */
 
 class Solution {
-    
+        
   public int bulbSwitch(int n) {
         boolean[] bulbs = new boolean[n];
         int nBulbsOn = 0;

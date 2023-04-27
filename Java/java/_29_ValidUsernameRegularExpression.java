@@ -1,4 +1,4 @@
-package hackerrank;
+package java;
 import java.util.Scanner;
 class UsernameValidator {
     /*
