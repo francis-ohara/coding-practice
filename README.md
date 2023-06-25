@@ -1,2 +1,2 @@
-# coding-practice
-Solutions to various programming problems.
+# python-practice
+Scripts I wrote to practice Python.
