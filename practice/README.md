@@ -1,2 +1,2 @@
 # practice
-This directory contains programs I wrote to practice new Python concepts.
+This directory contains scripts I wrote to practice new Python concepts.
