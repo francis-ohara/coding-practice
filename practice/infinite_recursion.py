@@ -1,4 +1,4 @@
-# Testing the possibility of starting an infinite loop through recursion.
+"""Test the possibility of starting an infinite loop through recursion."""
 
 def function(n):
     return function(n)
