@@ -1,4 +1,4 @@
-"""Test how to use the Python assert statement"""
+"""Test how to use the Python assert statement."""
 
 
 # define function for adding numbers
