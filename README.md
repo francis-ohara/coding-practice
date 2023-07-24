@@ -1,2 +1,2 @@
 # python-practice
-Scripts I wrote to practice Python.
+Scripts I write to practice Python.
