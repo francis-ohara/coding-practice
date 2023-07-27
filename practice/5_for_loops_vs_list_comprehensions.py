@@ -1,4 +1,4 @@
-"""Code for demonstrating the relationship between a for-loop and a list comprehension."""
+"""Demonstrate the relationship between a for-loop and a list comprehension."""
 
 # list comprehension
 input_iterable = range(10)
