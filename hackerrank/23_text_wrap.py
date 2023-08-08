@@ -2,6 +2,7 @@
 
 from math import ceil
 
+
 def wrap(string, max_width):
     paragraph = ""
     start = 0
@@ -13,5 +14,6 @@ def wrap(string, max_width):
         end += max_width
 
     return paragraph
+
 
 print(wrap("ABCDEFGHIJKLIMNOQRSTUVWXYZ", 4))
