@@ -3,7 +3,6 @@
 from collections import deque
 
 deq = deque()
-
 N = int(input())
 
 for _ in range(N):
