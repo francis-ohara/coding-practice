@@ -1,2 +1,2 @@
 # mini-projects
-Small Python programs for performing various tasks.
+Small Python programs for doing various tasks.
