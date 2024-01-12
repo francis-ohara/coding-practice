@@ -1,2 +1,2 @@
 # Chapter title extractor
-Script I wrote to extract chapter titles from title page of a Software Engineering textbook by Ian Sommerville using regular expressions.
+Script for extractiing chapter titles from the Table of Contents page of a software engineering textbook by Ian Sommerville using regular expressions.
