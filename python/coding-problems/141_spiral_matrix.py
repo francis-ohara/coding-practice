@@ -2,7 +2,7 @@
 Problem: https://leetcode.com/problems/spiral-matrix/
 """
 class Solution:
-    def spiralOrder(self, matrix: List[List[int]]) -> List[int]:
+    def spiralOrder(self, matrix: list[list[int]]) -> list[int]:
         result = []
         n_rows = len(matrix)
         n_cols = len(matrix[0])
