@@ -1,0 +1,10 @@
+[project]
+name = "fastapi-tutorial"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14.2"
+dependencies = [
+    "fastapi[standard-no-fastapi-cloud-cli]>=0.128.0",
+    "ruff>=0.14.11",
+]
