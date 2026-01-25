@@ -1,0 +1,18 @@
+{
+  "name": "tailwind-practice",
+  "version": "1.0.0",
+  "description": "My first Tailwind CSS tutorial",
+  "license": "UNLICENSED",
+  "author": "Francis O'Hara Aidoo",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "tailwindcss": "^4.1.18"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.18"
+  }
+}
