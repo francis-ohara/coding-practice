@@ -1,1 +1,5 @@
+# Node.js-generated files
 node_modules/
+
+# TypeScript-generated files
+dist/
