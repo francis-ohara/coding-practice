@@ -1,0 +1,5 @@
+[project]
+name = "017-email-finder"
+version = "0.1.0"
+requires-python = ">=3.14.2"
+dependencies = []
