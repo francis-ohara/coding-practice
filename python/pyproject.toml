@@ -1,0 +1,17 @@
+[project]
+name = "python"
+version = "0.1.0"
+description = "A collection of Python practice scripts, experimental projects, and solutions to leetcode-style coding problems."
+readme = "README.md"
+requires-python = ">=3.14.2"
+dependencies = []
+
+[tool.uv.workspace]
+members = [
+    "016-chapter_title_extractor",
+    "017-email_finder",
+    "018-modules_and_packages",
+    "019-pillow_image_types_support",
+    "020-text_counter",
+    "021-token-generation-with-itsdangerous",
+]
