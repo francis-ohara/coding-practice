@@ -1,64 +1,54 @@
-# ⚡ Francis's Coding Practice 
-> *A comprehensive journal of algorithms, experiments, and full-stack development.*
+# ⚡ Francis's Coding Practice
 
-This repository is a living collection of my journey through software engineering, featuring everything from competitive programming solutions to modern web application experiments.
+> *A living journal of programming practice: algorithms, language experiments, and framework projects.*
+
+[![CI](https://github.com/francis-ohara/coding-practice/actions/workflows/ci.yml/badge.svg)](https://github.com/francis-ohara/coding-practice/actions/workflows/ci.yml)
+
+This repository documents my journey through software engineering: solutions to coding problems, small experiments that answer "how does this language feature actually behave?", and mini-projects for learning frameworks.
 
 ---
 
 ## 🛠️ Tech Stack
 
-I explore a wide variety of languages and tools. Here's what I've covered so far:
-
 | Category | Languages & Tools |
 |----------|-------------------|
-| **Core Languages** | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white) ![Java](https://img.shields.io/badge/-Java-007396?style=flat&logo=java&logoColor=white) ![C++](https://img.shields.io/badge/-C++-00599C?style=flat&logo=c%2B%2B&logoColor=white) ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) ![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat&logo=go&logoColor=white) |
-| **Web Frameworks** | ![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat&logo=fastapi&logoColor=white) |
-| **Styling** | ![Tailwind CSS](https://img.shields.io/badge/-Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white) |
-| **Computer Science** | Algorithms, Data Structures, System Design Patterns |
+| **Languages** | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white) ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=white) ![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat&logo=go&logoColor=white) ![Java](https://img.shields.io/badge/-Java-007396?style=flat&logo=openjdk&logoColor=white) ![C++](https://img.shields.io/badge/-C++-00599C?style=flat&logo=c%2B%2B&logoColor=white) |
+| **Frameworks & Styling** | ![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat&logo=fastapi&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/-Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white) |
+| **Tooling** | ![uv](https://img.shields.io/badge/-uv-DE5FE9?style=flat&logo=uv&logoColor=white) ![Ruff](https://img.shields.io/badge/-Ruff-D7FF64?style=flat&logo=ruff&logoColor=black) ![pytest](https://img.shields.io/badge/-pytest-0A9EDC?style=flat&logo=pytest&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/-GitHub_Actions-2088FF?style=flat&logo=github-actions&logoColor=white) |
 
 ---
 
-## 📂 Repository Tour
+## 📂 Repository Map
 
-This project is organized by language and domain. Here are the highlights:
-
-### 🐍 Python
-**Path:** `./python`
-The heart of my algorithmic practice.
-- **Coding Challenges**: Solutions to 100+ problems (HackerRank, LeetCode) focusing on optimization and pythonic code.
-- **Playground**: Experiments with `asyncio`, `multiprocessing`, `decorators`, and standard libraries.
-- **Automation**: Scripts for file management, email finding, and text processing.
-
-### ☕ Java & C++
-**Paths:** `./java`, `./cpp`
-Solutions for algorithms and data structure problems implemented in Java and C++.
-
-### 🌐 Web Development
-- **FastAPI** (`./fastapi`): Building high-performance APIs and learning modern backend practices.
-- **JavaScript & Tailwind** (`./js`, `./tailwind-css`): Frontend experiments, vanilla JS implementations, and UI styling practice.
+| Directory | What's inside |
+|-----------|---------------|
+| [`python/`](python/) | The heart of the repo: a uv workspace with **149+ solved coding problems** ([browsable index](python/coding-problems/README.md)), TIL-style language experiments, and mini-projects |
+| [`js/`](js/) | JavaScript fundamentals: HackerRank's 10 Days of JS and standalone experiments |
+| [`typescript/`](typescript/) | TypeScript projects, starting with a task manager built while learning the type system |
+| [`fastapi/`](fastapi/) | Backend API practice following the official FastAPI tutorial |
+| [`tailwind-css/`](tailwind-css/) | Utility-first CSS styling practice |
+| [`java/`](java/) | Java practice *(early days)* |
+| [`cpp/`](cpp/) | C++ practice *(early days)* |
+| [`go/`](go/) | Go practice with Exercism track exercises *(early days)* |
 
 ---
 
-## 🗺️ Directory Structure
+## ✅ Quality Checks
 
-```text
-coding-practice/
-├── python/                 # Major focus: Algorithms & Automation
-│   ├── coding-challenges/  # 150+ Solved problems
-│   └── playground/         # Language feature experiments (async, decorators)
-├── java/                   # Java Algo practice
-├── cpp/                    # C++ Competitive Programming
-├── js/                     # JavaScript basics & DOM manipulation
-├── fastapi/                # Backend API projects
-└── tailwind-css/           # Modern CSS styling practice
-```
+Every push runs [CI](.github/workflows/ci.yml) that:
+
+- Lints and format-checks all Python code with **ruff**
+- Runs **pytest** test cases against coding-problem solutions
+- Verifies the [solutions index](python/coding-problems/README.md) is up to date (it's auto-generated by [generate_index.py](python/coding-problems/generate_index.py))
 
 ---
 
-## 🚀 Recent Focus
-- Mastering **Blind 75** patterns.
-- Building robust APIs with **FastAPI**.
-- Improving frontend skills with **Tailwind CSS**.
+## 🚀 Current Focus
+
+- Working through **NeetCode 150** patterns (continuing from Blind 75)
+- Building APIs with **FastAPI**
+- Learning **TypeScript** and **Go**
 
 ---
-*Created and Maintained by Francis O'Hara Aidoo*
+
+*Created and maintained by Francis O'Hara Aidoo*
