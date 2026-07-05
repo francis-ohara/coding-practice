@@ -6,6 +6,20 @@ readme = "README.md"
 requires-python = ">=3.14.2"
 dependencies = []
 
+[dependency-groups]
+dev = ["pytest>=8.0"]
+
+[tool.pytest.ini_options]
+testpaths = ["coding-problems/tests"]
+
+[tool.ruff.lint.per-file-ignores]
+# These scripts intentionally demonstrate the behavior ruff flags.
+"010_object_attributes_by_value_or_reference.py" = ["F841"]
+"012_inheritance.py" = ["F841"]
+"018-modules_and_packages/main.py" = ["F811", "E402"]
+# HackerRank template: the pattern must be defined before the import.
+"coding-problems/hackerrank/039_matching_specific_string.py" = ["E402"]
+
 [tool.uv.workspace]
 members = [
     "016-chapter_title_extractor",
