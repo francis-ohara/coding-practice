@@ -1,5 +1,6 @@
 # https://www.algoexpert.io/questions/validate-subsequence
 
+
 def isValidSubsequence(array, sequence):
     seq_index = 0
     for i in range(len(array)):

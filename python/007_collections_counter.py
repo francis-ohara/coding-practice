@@ -1,4 +1,5 @@
 """Test the Counter class from Python's collections module"""
+
 from collections import Counter
 
 counter = Counter([1, 2, 1, 1, 3, 3, 4, 4, 5, 1, 2, 4, 6])

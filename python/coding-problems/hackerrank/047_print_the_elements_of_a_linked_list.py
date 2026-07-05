@@ -2,12 +2,6 @@
 
 # !/bin/python3
 
-import math
-import os
-import random
-import re
-import sys
-
 
 class SinglyLinkedListNode:
     def __init__(self, node_data):
@@ -33,6 +27,7 @@ class SinglyLinkedList:
 
 # Complete the printLinkedList function below.
 
+
 #
 # For your reference:
 #
@@ -43,12 +38,12 @@ class SinglyLinkedList:
 #
 def printLinkedList(head):
     current_node = head
-    while current_node != None:
+    while current_node is not None:
         print(current_node.data)
         current_node = current_node.next
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     llist_count = int(input())
 
     llist = SinglyLinkedList()

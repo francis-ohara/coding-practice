@@ -1,10 +1,6 @@
 #!/bin/python3
 
-import math
 import os
-import random
-import re
-import sys
 
 
 #
@@ -16,6 +12,7 @@ import sys
 #  2. STRING s2
 #
 
+
 def two_strings(s1, s2):
     for char in s1:
         if char in s2:
@@ -23,8 +20,8 @@ def two_strings(s1, s2):
     return "NO"
 
 
-if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+if __name__ == "__main__":
+    fptr = open(os.environ["OUTPUT_PATH"], "w")
 
     q = int(input().strip())
 
@@ -35,6 +32,6 @@ if __name__ == '__main__':
 
         result = two_strings(s1, s2)
 
-        fptr.write(result + '\n')
+        fptr.write(result + "\n")
 
     fptr.close()

@@ -17,13 +17,8 @@
 
 #!/bin/python3
 
-import math
-import os
-import random
-import re
-import sys
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     nm = input().split()
 
     n = int(nm[0])
@@ -38,15 +33,15 @@ if __name__ == '__main__':
     k = int(input())
 
     for i in range(0, n):
-        for j in range(0, n-i-1):
-            if int(athletes[j][k]) > int(athletes[j+1][k]):
-                athletes[j], athletes[j+1] = athletes[j+1], athletes[j]
+        for j in range(0, n - i - 1):
+            if int(athletes[j][k]) > int(athletes[j + 1][k]):
+                athletes[j], athletes[j + 1] = athletes[j + 1], athletes[j]
 
     for athlete in athletes:
         print(" ".join(athlete))
 
 
-#input
+# input
 # 5 3
 # 10 2 5
 # 7 1 0

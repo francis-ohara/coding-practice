@@ -1,10 +1,6 @@
 #!/bin/python3
 
-import math
 import os
-import random
-import re
-import sys
 
 
 #
@@ -14,6 +10,7 @@ import sys
 # The function accepts STRING s as parameter.
 #
 
+
 def string_construction(s):
     cost = 1
     for i in range(1, len(s)):
@@ -22,8 +19,8 @@ def string_construction(s):
     return cost
 
 
-if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+if __name__ == "__main__":
+    fptr = open(os.environ["OUTPUT_PATH"], "w")
 
     q = int(input().strip())
 
@@ -32,6 +29,6 @@ if __name__ == '__main__':
 
         result = string_construction(s)
 
-        fptr.write(str(result) + '\n')
+        fptr.write(str(result) + "\n")
 
     fptr.close()

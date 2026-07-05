@@ -30,7 +30,9 @@ class Complex:
         return result
 
     def __mul__(num1, num2):
-        result = Complex(f"{(num1.real * num2.real) - (num1.imag * num2.imag)} {(num1.real * num2.imag) + (num1.imag * num2.real)}")
+        result = Complex(
+            f"{(num1.real * num2.real) - (num1.imag * num2.imag)} {(num1.real * num2.imag) + (num1.imag * num2.real)}"
+        )
         return result
 
     def div(self):

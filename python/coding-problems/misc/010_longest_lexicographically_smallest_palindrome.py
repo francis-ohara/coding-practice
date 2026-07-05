@@ -24,18 +24,19 @@ If there are multiple longest palindromes that can be formed, return the one amo
 * **[memory limit]** 1 GB
 * **[input] string s**
 * The given string.
-* **Guaranteed constraints:** 
+* **Guaranteed constraints:**
 
 
 * **[output] string**
 * The lexicographically smallest palindrome with maximal length that can be built from the given string `s`.
 """
 
+
 def solution(s):
     s_histogram = {}
     for char in s:
         s_histogram[char] = s_histogram.get(char, 0) + 1
-    
+
     left_wing = ""
     alphabets = "abcdefghijklmnopqrstuvwxyz"
     for alphabet in alphabets:
@@ -51,5 +52,3 @@ def solution(s):
                 center = char
 
     return left_wing + center + left_wing[::-1]
-
-

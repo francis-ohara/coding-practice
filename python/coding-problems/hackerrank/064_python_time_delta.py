@@ -24,7 +24,9 @@ def to_unix(str_t: str) -> int:
     hours = int(timezone[1:3])
     minutes = int(timezone[3:])
     time_zone_difference = (hours * 3600) + (minutes * 60)
-    time_zone_difference = (time_zone_difference * -1) if (timezone[0] == "+") else time_zone_difference
+    time_zone_difference = (
+        (time_zone_difference * -1) if (timezone[0] == "+") else time_zone_difference
+    )
 
     # add time zone difference to unix_t
     unix_t += time_zone_difference

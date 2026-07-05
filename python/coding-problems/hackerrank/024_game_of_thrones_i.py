@@ -1,10 +1,6 @@
 #!/bin/python3
 
-import math
 import os
-import random
-import re
-import sys
 
 
 #
@@ -13,6 +9,7 @@ import sys
 # The function is expected to return a STRING.
 # The function accepts STRING s as parameter.
 #
+
 
 def game_of_thrones(string):
     odd_count = 0
@@ -24,13 +21,13 @@ def game_of_thrones(string):
     return "YES"
 
 
-if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+if __name__ == "__main__":
+    fptr = open(os.environ["OUTPUT_PATH"], "w")
 
     s = input()
 
     result = game_of_thrones(s)
 
-    fptr.write(result + '\n')
+    fptr.write(result + "\n")
 
     fptr.close()

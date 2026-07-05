@@ -1,5 +1,6 @@
 """Test the possibility of starting an infinite loop through recursion."""
 
+
 def function(n):
     return function(n)
 

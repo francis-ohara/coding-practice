@@ -51,4 +51,3 @@ def sorted_union(nums1: list[int], nums2: list[int]):
 arr1 = [1, 2, 2, 3]
 arr2 = [3, 3, 4, 4, 4, 7, 9]
 print(sorted_union(arr1, arr2))
-

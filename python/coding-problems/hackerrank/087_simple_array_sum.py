@@ -1,11 +1,7 @@
 # https://www.hackerrank.com/challenges/simple-array-sum/problem?isFullScreen=true
 #!/bin/python3
 
-import math
 import os
-import random
-import re
-import sys
 
 #
 # Complete the 'simpleArraySum' function below.
@@ -14,16 +10,18 @@ import sys
 # The function accepts INTEGER_ARRAY ar as parameter.
 #
 
+
 def simpleArraySum(ar):
     sum = 0
 
     for num in ar:
         sum += num
-    
+
     return sum
 
-if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+
+if __name__ == "__main__":
+    fptr = open(os.environ["OUTPUT_PATH"], "w")
 
     ar_count = int(input().strip())
 
@@ -31,6 +29,6 @@ if __name__ == '__main__':
 
     result = simpleArraySum(ar)
 
-    fptr.write(str(result) + '\n')
+    fptr.write(str(result) + "\n")
 
     fptr.close()

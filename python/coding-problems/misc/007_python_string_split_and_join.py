@@ -3,4 +3,5 @@ def split_and_join(line):
     newstr = "-".join(substrs)
     return newstr
 
+
 print(split_and_join("Hello World!"))

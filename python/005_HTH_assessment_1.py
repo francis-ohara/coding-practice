@@ -20,7 +20,8 @@ def longest_sub(string: str) -> int:
             previous = [char]  # reset previous characters
 
     streaks.append(streak)  # ensure streak value at end of loop is included
-    return max(streaks) # return largest streak
+    return max(streaks)  # return largest streak
+
 
 # test the function
 s = input()

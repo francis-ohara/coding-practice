@@ -1,5 +1,6 @@
 # https://leetcode.com/problems/image-smoother/description/?envType=problem-list-v2&envId=matrix
 
+
 class Solution:
     def imageSmoother(self, img: list[list[int]]) -> list[list[int]]:
         num_rows = len(img)
@@ -19,9 +20,7 @@ class Solution:
                     for j in range(start_col, end_col + 1):
                         cell_count += 1
                         total += img[i][j]
-                
+
                 result[row][col] = total // cell_count
-        
+
         return result
-
-

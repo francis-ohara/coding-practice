@@ -8,4 +8,4 @@ BC = int(input())
 
 theta = degrees(atan(BC / AB))
 
-print(90-round(theta), "\u00B0", sep="")
+print(90 - round(theta), "\u00b0", sep="")

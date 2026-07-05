@@ -11,6 +11,7 @@
 # Output Format
 #   Output the sorted string
 
+
 def key(val):
     if val.islower():
         return 0
@@ -20,6 +21,7 @@ def key(val):
         return 2
     if int(val) % 2 == 0:
         return 3
+
 
 # sort1 = sorted("ortingS475")
 # print("".join(sort1))

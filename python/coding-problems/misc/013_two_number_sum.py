@@ -1,5 +1,6 @@
 # https://www.algoexpert.io/questions/two-number-sum
 
+
 def twoNumberSum(array, targetSum):
     for i in range(len(array)):
         for j in range(len(array)):

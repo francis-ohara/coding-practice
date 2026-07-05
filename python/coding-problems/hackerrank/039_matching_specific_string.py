@@ -1,6 +1,6 @@
 # https://www.hackerrank.com/challenges/matching-specific-string/problem?utm_campaign=challenge-recommendation&utm_medium=email&utm_source=24-hour-campaign
 
-Regex_Pattern = r'hackerrank'	# Do not delete 'r'.
+Regex_Pattern = r"hackerrank"  # Do not delete 'r'.
 
 import re
 

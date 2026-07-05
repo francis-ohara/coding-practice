@@ -1,5 +1,6 @@
 # link: https://www.hackerrank.com/challenges/capitalize/problem
 
+
 def solve(s):
     s = list(s)
     s[0] = s[0].capitalize()

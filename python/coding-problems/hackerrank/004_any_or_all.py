@@ -10,7 +10,13 @@ nums = list(map(int, input().split()))
 
 def any_or_all(numbers):
     if all((False for number in numbers if number <= 0)):
-        if any((True for number in numbers if str(number) == "".join(reversed(str(number))))):
+        if any(
+            (
+                True
+                for number in numbers
+                if str(number) == "".join(reversed(str(number)))
+            )
+        ):
             return True
     return False
 

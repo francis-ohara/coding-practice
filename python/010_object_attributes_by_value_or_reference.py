@@ -3,6 +3,7 @@ Does the variable contain a copy of the value of that attribute or a reference t
 memory? I.e. Can the variable be used to modify the content of the attribute of the object?
 """
 
+
 class Bar:
     attribute = 42
 
@@ -10,6 +11,7 @@ class Bar:
         var1 = self.attribute
         var1 = greeting
         print("method called!")
+
 
 bar = Bar()
 

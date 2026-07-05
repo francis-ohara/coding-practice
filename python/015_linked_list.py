@@ -71,7 +71,6 @@ class LinkedList:
         return result
 
 
-
 ll = LinkedList(2)
 ll.append(3)
 ll.prepend(1)

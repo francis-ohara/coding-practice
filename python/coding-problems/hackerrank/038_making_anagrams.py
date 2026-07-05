@@ -1,10 +1,6 @@
 #!/bin/python3
 
-import math
 import os
-import random
-import re
-import sys
 
 
 #
@@ -16,6 +12,7 @@ import sys
 #  2. STRING s2
 #
 
+
 def making_anagrams(s1, s2):
     n_overlap = 0
     for char in set([i for i in s1]):
@@ -24,8 +21,8 @@ def making_anagrams(s1, s2):
     return result
 
 
-if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+if __name__ == "__main__":
+    fptr = open(os.environ["OUTPUT_PATH"], "w")
 
     s1 = input()
 
@@ -33,6 +30,6 @@ if __name__ == '__main__':
 
     result = making_anagrams(s1, s2)
 
-    fptr.write(str(result) + '\n')
+    fptr.write(str(result) + "\n")
 
     fptr.close()

@@ -5,7 +5,9 @@
 # case 2: current value !< smallest value but current value < second smallest
 
 N = int(input())  # number of students
-records = [[input(), float(input())] for _ in range(N)]  # list of student names and grades
+records = [
+    [input(), float(input())] for _ in range(N)
+]  # list of student names and grades
 
 # find second-lowest grade
 lowest = float("inf")

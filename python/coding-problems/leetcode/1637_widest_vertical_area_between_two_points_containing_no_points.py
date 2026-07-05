@@ -1,5 +1,6 @@
 # https://leetcode.com/problems/widest-vertical-area-between-two-points-containing-no-points/description/
 
+
 class Solution:
     def maxWidthOfVerticalArea(self, points: list[list[int]]) -> int:
         x_coordinates = []

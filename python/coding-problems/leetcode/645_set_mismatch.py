@@ -10,7 +10,6 @@ class Solution:
             if (answer[1] == 0) and (nums[i] != s[i]):
                 if s[i] not in nums:
                     answer[1] = s[i]
-            if (i != 0) and (nums[i] == nums[i-1]):
+            if (i != 0) and (nums[i] == nums[i - 1]):
                 answer[0] = nums[i]
         return answer
-

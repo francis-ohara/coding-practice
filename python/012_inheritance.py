@@ -15,7 +15,7 @@ class Parent:
 
 # child class of Parent that overrides Parent's constructor.
 class Child(Parent):
-    def __init__(self): # override the constructor
+    def __init__(self):  # override the constructor
         self.foobar = "Bye, Earth!"
 
 
@@ -24,6 +24,7 @@ class Child(Parent):
 #
 # child = Child()
 # print(child.foo)
+
 
 # alternate Parent class with attributes defined within the Class's scope
 class GoodParent:
@@ -43,4 +44,3 @@ print(good_child.foo)
 # The danger to defining all attributes in the constructor is that if the parent is inherited and the child overrides
 # the parent's constructor then one has to manually ensure that the child has all the parent's attributes in its
 # constructor. The super() built-in is useful in this situation.
-

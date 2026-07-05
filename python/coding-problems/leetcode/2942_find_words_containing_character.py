@@ -1,5 +1,6 @@
 # https://leetcode.com/problems/find-words-containing-character/description/
 
+
 class Solution:
     def findWordsContaining(self, words: list[str], x: str) -> list[int]:
         word_indices = []

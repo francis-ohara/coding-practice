@@ -1,10 +1,6 @@
 #!/bin/python3
 
-import math
 import os
-import random
-import re
-import sys
 
 
 #
@@ -14,20 +10,21 @@ import sys
 # The function accepts STRING s as parameter.
 #
 
+
 def alternating_characters(s: str) -> int:
     n_deletions = 0
     i = 0
     while i < len(s) - 1:
         if s[i] == s[i + 1]:
-            s = s[:i] + s[i + 1:]
+            s = s[:i] + s[i + 1 :]
             n_deletions += 1
             continue
         i += 1
     return n_deletions
 
 
-if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+if __name__ == "__main__":
+    fptr = open(os.environ["OUTPUT_PATH"], "w")
 
     q = int(input().strip())
 
@@ -36,6 +33,6 @@ if __name__ == '__main__':
 
         result = alternating_characters(s)
 
-        fptr.write(str(result) + '\n')
+        fptr.write(str(result) + "\n")
 
     fptr.close()

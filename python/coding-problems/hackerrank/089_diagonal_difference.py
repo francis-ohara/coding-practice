@@ -1,11 +1,7 @@
 # https://www.hackerrank.com/challenges/diagonal-difference/problem?isFullScreen=true
 #!/bin/python3
 
-import math
 import os
-import random
-import re
-import sys
 
 #
 # Complete the 'diagonalDifference' function below.

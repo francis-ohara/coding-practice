@@ -1,11 +1,7 @@
 # https://www.hackerrank.com/challenges/birthday-cake-candles/problem?isFullScreen=false
 #!/bin/python3
 
-import math
 import os
-import random
-import re
-import sys
 
 
 #

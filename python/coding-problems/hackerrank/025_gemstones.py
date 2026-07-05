@@ -1,10 +1,6 @@
 #!/bin/python3
 
-import math
 import os
-import random
-import re
-import sys
 
 #
 # Complete the 'gemstones' function below.
@@ -12,6 +8,7 @@ import sys
 # The function is expected to return an INTEGER.
 # The function accepts STRING_ARRAY arr as parameter.
 #
+
 
 def gemstones(rocks):
     gems = list(set([i for i in rocks[0]]))
@@ -25,8 +22,9 @@ def gemstones(rocks):
         i = i + 1
     return len(gems)
 
-if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+
+if __name__ == "__main__":
+    fptr = open(os.environ["OUTPUT_PATH"], "w")
 
     n = int(input().strip())
 
@@ -38,6 +36,6 @@ if __name__ == '__main__':
 
     result = gemstones(arr)
 
-    fptr.write(str(result) + '\n')
+    fptr.write(str(result) + "\n")
 
     fptr.close()

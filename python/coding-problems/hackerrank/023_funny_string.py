@@ -1,10 +1,6 @@
 #!/bin/python3
 
-import math
 import os
-import random
-import re
-import sys
 
 #
 # Complete the 'funnyString' function below.
@@ -29,8 +25,8 @@ def funny_string(s: str) -> str:
     return "Not Funny"
 
 
-if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+if __name__ == "__main__":
+    fptr = open(os.environ["OUTPUT_PATH"], "w")
 
     q = int(input().strip())
 
@@ -39,6 +35,6 @@ if __name__ == '__main__':
 
         result = funny_string(s)
 
-        fptr.write(result + '\n')
+        fptr.write(result + "\n")
 
     fptr.close()

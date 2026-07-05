@@ -28,4 +28,3 @@ for grade in grades:
 
 avg = total / count
 print(f"{avg:.2f}")  # print average correct to 2 d.p.
-

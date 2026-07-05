@@ -1,10 +1,6 @@
 #!/bin/python3
 
-import math
 import os
-import random
-import re
-import sys
 
 
 #
@@ -14,17 +10,18 @@ import sys
 # The function accepts STRING s as parameter.
 #
 
+
 def hackerrankInString(s):
     for char in "hackerrank":
         if char in s:
-            s = s[s.find(char) + 1:]
+            s = s[s.find(char) + 1 :]
         else:
             return "NO"
     return "YES"
 
 
-if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+if __name__ == "__main__":
+    fptr = open(os.environ["OUTPUT_PATH"], "w")
 
     q = int(input().strip())
 
@@ -33,6 +30,6 @@ if __name__ == '__main__':
 
         result = hackerrankInString(s)
 
-        fptr.write(result + '\n')
+        fptr.write(result + "\n")
 
     fptr.close()

@@ -15,7 +15,9 @@ def solution(commands):
     else:
         return "R"
 
+
 print(solution("LRLLRLRLRRRLR"))
+
 
 # Question 2
 def solution(message, n):
@@ -31,10 +33,13 @@ def solution(message, n):
                 elif message[i].islower():
                     replacement = consonants[consonants.index(message[i]) + 1]
                 else:
-                    replacement = consonants[consonants.index(message[i].lower()) + 1].upper()
-                message = message[:i] + replacement + message[i+1:]
+                    replacement = consonants[
+                        consonants.index(message[i].lower()) + 1
+                    ].upper()
+                message = message[:i] + replacement + message[i + 1 :]
 
     return message
+
 
 print(solution("CodeSignal", 3))
 
@@ -48,5 +53,6 @@ def solution(titles):
                 print(i, titles[i], j, titles[j])
                 count += 1
     return count
+
 
 print(solution(["abc", "a", "a", "b", "ab", "ac"]))

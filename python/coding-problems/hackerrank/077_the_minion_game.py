@@ -1,5 +1,6 @@
 # link: https://www.hackerrank.com/challenges/the-minion-game/problem
 
+
 def minion_game(string):
     vowels = "AEIOU"
     stuart = 0
@@ -18,6 +19,7 @@ def minion_game(string):
         print(f"Kevin {kevin}")
     else:
         print("Draw")
+
 
 s = input()
 minion_game(s)

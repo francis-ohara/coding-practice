@@ -1,14 +1,17 @@
 """Script for testing Python's asynchronous programming features"""
+
 import asyncio
 import time
+
 
 def foo():
     """Wait 2 seconds and output 'Hello World!'."""
     time.sleep(2)
     print("Hello World!")
 
+
 def bar():
-    """Wait 2 seconds and output 'Goodbye Earth :(' """
+    """Wait 2 seconds and output 'Goodbye Earth :('"""
     time.sleep(2)
     print("Goodbye Earth!")
 
@@ -30,7 +33,7 @@ async def foo_prime():
 
 
 async def bar_prime():
-    """Wait 2 seconds and output 'Goodbye Earth :(' """
+    """Wait 2 seconds and output 'Goodbye Earth :('"""
     await asyncio.sleep(2)
     print("Goodbye Earth!")
 
@@ -44,6 +47,7 @@ async def main():
     # running the two tasks
     await task1
     await task2
+
 
 # running the top-level coroutine
 print("\n-----------ASYNCHRONOUS------------")

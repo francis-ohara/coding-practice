@@ -2,14 +2,14 @@
 
 # list comprehension
 input_iterable = range(10)
-numbers = [i ** 2 for i in input_iterable]  # generate 1st ten perfect squares
+numbers = [i**2 for i in input_iterable]  # generate 1st ten perfect squares
 print(numbers)
 
 # for-loop equivalent
 input_iterable = range(10)
 numbers = []
 for i in input_iterable:
-    number = i ** 2
+    number = i**2
     numbers.append(number)
 print(numbers)
 

@@ -9,7 +9,7 @@ weekdays = {
     3: "THURSDAY",
     4: "FRIDAY",
     5: "SATURDAY",
-    6: "SUNDAY"
+    6: "SUNDAY",
 }
 month, day, year = map(int, input().split())
 day_of_week = weekday(year, month, day)

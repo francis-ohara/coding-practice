@@ -1,11 +1,7 @@
 # https://www.hackerrank.com/challenges/a-very-big-sum/problem?isFullScreen=true
 #!/bin/python3
 
-import math
 import os
-import random
-import re
-import sys
 
 #
 # Complete the 'aVeryBigSum' function below.
@@ -14,15 +10,17 @@ import sys
 # The function accepts LONG_INTEGER_ARRAY ar as parameter.
 #
 
+
 def aVeryBigSum(ar):
     sum = 0
-    
+
     for num in ar:
         sum += num
     return sum
 
-if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+
+if __name__ == "__main__":
+    fptr = open(os.environ["OUTPUT_PATH"], "w")
 
     ar_count = int(input().strip())
 
@@ -30,6 +28,6 @@ if __name__ == '__main__':
 
     result = aVeryBigSum(ar)
 
-    fptr.write(str(result) + '\n')
+    fptr.write(str(result) + "\n")
 
     fptr.close()

@@ -1,4 +1,5 @@
 """script that uses regular expressions to find all email addresses in a text file if any"""
+
 from re import search
 from re import findall
 

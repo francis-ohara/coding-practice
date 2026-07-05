@@ -1,5 +1,6 @@
 # https://www.algoexpert.io/questions/tournament-winner
 
+
 def tournamentWinner(competitions, results):
     scoreboard = {}
 
@@ -12,7 +13,7 @@ def tournamentWinner(competitions, results):
     winner = None
 
     for player in scoreboard:
-        if winner == None:
+        if winner is None:
             winner = player
         else:
             if scoreboard[player] > scoreboard[winner]:

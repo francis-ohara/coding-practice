@@ -3,4 +3,4 @@ from math import ceil
 
 
 def solution(year):
-    return ceil(year/100)
+    return ceil(year / 100)

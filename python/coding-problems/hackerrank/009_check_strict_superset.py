@@ -19,7 +19,7 @@ n = int(input())
 result = True
 for i in range(n):
     curr = set(map(int, input().split()))
-    if not(A.issuperset(curr)) or A == curr:
+    if not (A.issuperset(curr)) or A == curr:
         result = False
         break
 

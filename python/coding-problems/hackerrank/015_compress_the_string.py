@@ -2,4 +2,6 @@ from itertools import groupby
 
 S = input()
 
-answer = groupby(S, ) # complete
+answer = groupby(
+    S,
+)  # complete

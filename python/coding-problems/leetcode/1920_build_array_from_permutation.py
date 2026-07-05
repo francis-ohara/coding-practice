@@ -1,5 +1,6 @@
 # https://leetcode.com/problems/build-array-from-permutation/description/
 
+
 class Solution:
     def buildArray(self, nums: list[int]) -> list[int]:
         ans = []

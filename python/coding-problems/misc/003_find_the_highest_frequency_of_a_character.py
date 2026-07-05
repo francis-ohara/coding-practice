@@ -1,5 +1,6 @@
 # https://www.youtube.com/watch?v=AdG_3GRDUfI
 
+
 def find_highest_frequency(s: str) -> str:
     char_frequencies = {}
 
@@ -18,5 +19,6 @@ def find_highest_frequency(s: str) -> str:
             highest_frequency = char_frequencies[char]
 
     return highest_char
+
 
 print(find_highest_frequency("aababcaab"))

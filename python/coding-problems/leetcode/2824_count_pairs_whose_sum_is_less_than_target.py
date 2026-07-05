@@ -1,5 +1,6 @@
 # https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/description/
 
+
 class Solution:
     def countPairs(self, nums: list[int], target: int) -> int:
         n_pairs = 0
@@ -8,4 +9,3 @@ class Solution:
                 if nums[i] + nums[j] < target:
                     n_pairs += 1
         return n_pairs
-

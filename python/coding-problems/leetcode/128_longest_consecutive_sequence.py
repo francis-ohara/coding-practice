@@ -2,6 +2,7 @@
 Problem: https://leetcode.com/problems/longest-consecutive-sequence/
 """
 
+
 class Solution:
     def longestConsecutive(self, nums: list[int]) -> int:
         if len(nums) == 0:
@@ -22,7 +23,7 @@ class Solution:
 
         for current_num in range(min, max + 1):
             if current_num in all_nums:
-                if current_num  - 1 == previous_num:
+                if current_num - 1 == previous_num:
                     streak += 1
                     if streak > max_streak:
                         max_streak = streak
@@ -31,4 +32,3 @@ class Solution:
                 previous_num = current_num
 
         return max_streak
-            

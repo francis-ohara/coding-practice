@@ -1,7 +1,8 @@
 # https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/description/
 
+
 class Solution:
-    def arrayStringsAreEqual(self, word1: List[str], word2: List[str]) -> bool:
+    def arrayStringsAreEqual(self, word1: list[str], word2: list[str]) -> bool:
         built_word1 = ""
         for word in word1:
             for char in word:

@@ -6,5 +6,4 @@ B = list(map(int, input().split()))
 
 for a in A:
     for b in B:
-        print((a, b), end = " ")
-
+        print((a, b), end=" ")
