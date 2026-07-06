@@ -29,7 +29,8 @@ This repository documents my journey through software engineering: solutions to 
 | [`tailwind-css/`](tailwind-css/) | Utility-first CSS styling practice |
 | [`java/`](java/) | Java practice *(early days)* |
 | [`cpp/`](cpp/) | C++ practice *(early days)* |
-| [`go/`](go/) | Go practice with Exercism track exercises *(early days)* |
+| [`go/`](go/) | Hand-written Go experiments from A Tour of Go and Go by Example *(early days)* |
+| [`exercism/`](exercism/) | Exercism CLI workspace: downloaded exercises organized by track (e.g. `exercism/go/`) |
 
 ---
 
