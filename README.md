@@ -23,7 +23,7 @@ This repository documents my journey through software engineering: solutions to 
 | Directory | What's inside |
 |-----------|---------------|
 | [`python/`](python/) | The heart of the repo: a uv workspace with **149+ solved coding problems** ([browsable index](python/coding-problems/README.md)), TIL-style language experiments, and mini-projects |
-| [`js/`](js/) | JavaScript fundamentals: HackerRank's 10 Days of JS and standalone experiments |
+| [`javascript/`](javascript/) | JavaScript fundamentals: HackerRank's 10 Days of JS and standalone experiments |
 | [`typescript/`](typescript/) | TypeScript projects, starting with a task manager built while learning the type system |
 | [`fastapi/`](fastapi/) | Backend API practice following the official FastAPI tutorial |
 | [`tailwind-css/`](tailwind-css/) | Utility-first CSS styling practice |
